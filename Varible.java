@@ -16,6 +16,6 @@ class Varible{
             System.out.println("ค่าตัวเลขชนิดที่ 3 : "+number3);
         }
         
-    }
+    }   
 
 }
