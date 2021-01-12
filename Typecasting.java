@@ -1,4 +1,4 @@
-class Typecasting{
+class TypeCasting{
     public static void main(String[] args) {
         //Small to Big
         int numInt = 10 ;

@@ -1,4 +1,4 @@
-public class String_begin {
+public class StringBegin {
     public static void main(String[] args) {
         String a = "10";
         System.out.println(a);
