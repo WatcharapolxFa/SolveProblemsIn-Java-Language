@@ -1,3 +1,4 @@
+
 public class StringBegin {
     public static void main(String[] args) {
         String a = "10";
@@ -28,5 +29,9 @@ public class StringBegin {
         System.out.println(age);
 
         //Check type
+        String e = "Hello world";
+
+        boolean result = e instanceof String;
+        System.out.println(result);
     }
 }
