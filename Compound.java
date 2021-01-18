@@ -10,7 +10,6 @@ public class Compound {
         System.out.println("หลัง คูณค่า " + x);
         x /= y;
         System.out.println("หลัง หารค่า " + x);
-
     }
 
 }
