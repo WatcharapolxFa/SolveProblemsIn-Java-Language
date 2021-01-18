@@ -22,7 +22,7 @@ public class InputTutorial {
         // Next
 
         System.out.print("ป้อน ชื่อเล่น :");
-        String names = sc.next(); // Input by string
+        String names = scanner.next(); // Input by string
         System.out.println("ชื่อเล่นของคุณ คือ " + names);
     }
 }
