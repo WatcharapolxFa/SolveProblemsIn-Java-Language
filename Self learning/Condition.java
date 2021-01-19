@@ -6,7 +6,7 @@ public class Condition {
         System.out.print("ป้อนอายุของนาย ท่าน : ");
         int age = scanner.nextInt();
         if (age >= 15) {
-            System.out.print("นาย / นางสาว : " + age);
+            System.out.println("นาย / นางสาว : " + age);
         }
         System.out.print("จบโปรแกรม ");
     }
