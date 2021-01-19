@@ -1,4 +1,3 @@
-package K1P2;
 
 import java.util.Scanner;
 

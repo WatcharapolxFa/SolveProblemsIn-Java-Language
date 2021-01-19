@@ -1,4 +1,3 @@
-package K1P2;
 
 public class PopulationProjection {
     public static void main(String[] args) {
