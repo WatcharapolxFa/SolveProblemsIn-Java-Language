@@ -22,6 +22,7 @@ public class InputTutorial {
         // Next
 
         // System.out.println((num/2==0)? num + "is even":num +"is odd");
+        // System.out.println(3+(int)(Msth.random()*3));
 
         System.out.print("ป้อน ชื่อเล่น :");
         String names = scanner.next(); // Input by string
