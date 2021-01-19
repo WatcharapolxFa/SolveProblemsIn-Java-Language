@@ -4,8 +4,8 @@ public class PredictTheDay {
     public static void main(String[] args) {
         System.out.print("Enter year (e.g., 2012): ");
         Scanner scanner = new Scanner(System.in);
-        int year = scanner.nextInt();
-        if (year <= 0) {
+        int years = scanner.nextInt();
+        if (years <= 0) {
             System.out.println("Invalid year");
             System.exit(1);
         }
@@ -17,8 +17,8 @@ public class PredictTheDay {
         }
         System.out.print("Enter the day of the month (1-31): ");
         int day = scanner.nextInt();
-        validateDay(day, month, year);
-        System.out.printf("Day of the week is %s", intToDay(zeller(year, month, day)));
+        validateDay(day, month, years);
+        System.out.printf("Day of the week is %s", ToDays(zeller(years, month, day)));
     }
 
     public static int zeller(int year, int month, int day) {
@@ -39,34 +39,35 @@ public class PredictTheDay {
         return h;
     }
 
-    public static String intToDay(int number) {
+    public static String ToDays(int number) {
         String day;
 
         switch (number) {
-            case 1:
+            case 0:
                 day = "Sunday";
                 break;
-            case 2:
+            case 1:
                 day = "Monday";
                 break;
-            case 3:
+            case 2:
                 day = "Tuesday";
                 break;
-            case 4:
+            case 3:
                 day = "Wednesday";
                 break;
-            case 5:
+            case 4:
                 day = "Thursday";
                 break;
-            case 6:
+            case 5:
                 day = "Friday";
                 break;
-            case 0:
+            case 6:
                 day = "Saturday";
                 break;
             default:
                 day = "UNIDENTIFIED";
         }
+
         return day;
     }
 
