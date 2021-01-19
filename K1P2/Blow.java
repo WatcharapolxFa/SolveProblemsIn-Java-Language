@@ -19,6 +19,17 @@ public class Blow {
 
     }
 
+    public static void showWinners(int playerans, int comans) {
+
+        if (playerans == comans) {
+            System.out.printf("The computer is %s. You are %s too. It is a draw\n\n", ans(comans), ans(playerans));
+        } else if ((playerans + 1) % 3 == comans) {
+            System.out.printf("The computer is %s. You are %s. You lose\n\n", ans(comans), ans(playerans));
+        } else {
+            System.out.printf("The computer is %s. You are %s. You won\n\n", ans(comans), ans(playerans));
+        }
+    }
+
     public static String ans(int number) {
         String Ans;
 
@@ -37,16 +48,5 @@ public class Blow {
         }
 
         return Ans;
-    }
-
-    public static void showWinners(int playerans, int comans) {
-
-        if (playerans == comans) {
-            System.out.printf("The computer is %s. You are %s too. It is a draw\n\n", ans(comans), ans(playerans));
-        } else if ((playerans + 1) % 3 == comans) {
-            System.out.printf("The computer is %s. You are %s. You lose\n\n", ans(comans), ans(playerans));
-        } else {
-            System.out.printf("The computer is %s. You are %s. You won\n\n", ans(comans), ans(playerans));
-        }
     }
 }
