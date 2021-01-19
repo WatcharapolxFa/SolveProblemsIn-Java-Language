@@ -6,13 +6,13 @@ public class PredictTheDay {
         Scanner scanner = new Scanner(System.in);
         int years = scanner.nextInt();
         if (years <= 0) {
-            System.out.println("Invalid year");
+            System.out.println("Invalid year ,Please enter it again.");
             System.exit(1);
         }
         System.out.print("Enter month (1-12): ");
         int month = scanner.nextInt();
         if (month < 1 || month > 12) {
-            System.out.println("Invalid month");
+            System.out.println("Invalid month,Please enter it again.");
             System.exit(1);
         }
         System.out.print("Enter the day of the month (1-31): ");
@@ -37,6 +37,43 @@ public class PredictTheDay {
         h += century * 5;
         h %= 7;
         return h;
+    }
+
+    public static boolean isLeapYear(int year) {
+        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static void validateDay(int day, int month, int year) {
+        if (day < 1) {
+            System.out.println("Invalid day,Please enter it again.");
+            System.exit(1);
+        } else if (month == 4 || month == 6 || month == 9 || month == 11) {
+            if (day > 30) {
+                System.out.println("Invalid day,Please enter it again.");
+                System.exit(1);
+            }
+        } else if (month == 2) {
+            if (isLeapYear(year)) {
+                if (day > 29) {
+                    System.out.println("Invalid day,Please enter it again.");
+                    System.exit(1);
+                }
+            } else {
+                if (day > 28) {
+                    System.out.println("Invalid day,Please enter it again.");
+                    System.exit(1);
+                }
+            }
+        } else {
+            if (day > 31) {
+                System.out.println("Invalid day,Please enter it again.");
+                System.exit(1);
+            }
+        }
     }
 
     public static String ToDays(int number) {
@@ -69,42 +106,5 @@ public class PredictTheDay {
         }
 
         return day;
-    }
-
-    public static boolean isLeapYear(int year) {
-        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    public static void validateDay(int day, int month, int year) {
-        if (day < 1) {
-            System.out.println("Invalid day");
-            System.exit(1);
-        } else if (month == 4 || month == 6 || month == 9 || month == 11) {
-            if (day > 30) {
-                System.out.println("Invalid day");
-                System.exit(1);
-            }
-        } else if (month == 2) {
-            if (isLeapYear(year)) {
-                if (day > 29) {
-                    System.out.println("Invalid day");
-                    System.exit(1);
-                }
-            } else {
-                if (day > 28) {
-                    System.out.println("Invalid day");
-                    System.exit(1);
-                }
-            }
-        } else {
-            if (day > 31) {
-                System.out.println("Invalid day");
-                System.exit(1);
-            }
-        }
     }
 }
