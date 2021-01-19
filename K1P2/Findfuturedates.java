@@ -2,30 +2,29 @@ import java.util.Scanner;
 
 class Findfuturedates {
     public static void main(String[] args) {
-        int start, elapsed;
-        Scanner scanner = new Scanner(System.in);
+        int day, Next;
+        Scanner inputs = new Scanner(System.in);
 
         while (true) {
             System.out.print("Enter today's day: ");
-            start = scanner.nextInt();
-            if (start < 0 || start > 6) {
-                System.out.println("Invalid day of a week (0-6)\n");
+            day = inputs.nextInt();
+            if (day < 0 || day > 6) {
+                System.out.println("Please enter numbers from 0-6\n");
                 continue;
             }
 
             System.out.print("Enter the number of days elapsed since today: ");
-            elapsed = scanner.nextInt();
-            if (elapsed <= 0) {
-                System.out.println("Invalid future days\n");
+            Next = inputs.nextInt();
+            if (Next <= 0) {
+                System.out.println("Invalid future days Please enter numbers from > 0 \n");
                 continue;
             }
 
-            System.out.printf("Today is %s and the future day is %s\n\n", intToDay(start),
-                    intToDay((start + elapsed) % 7));
+            System.out.printf("Today is %s and the future day is %s\n\n", ToDays(day), ToDays((day + Next) % 7));
         }
     }
 
-    public static String intToDay(int number) {
+    public static String ToDays(int number) {
         String day;
 
         switch (number) {
