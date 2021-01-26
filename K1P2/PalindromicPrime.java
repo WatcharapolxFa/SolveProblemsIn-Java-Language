@@ -3,26 +3,52 @@ import java.util.List;
 
 public class PalindromicPrime {
     public static void main(String[] args) {
-        List ListPrime = new ArrayList<>(); // สร้าง List เพื่อเก็บจำนวนเฉพาะ
-        ListPrime.add(2); // เพิ่มเลข 2 เข้าไปเพราะเป็นจำนวนเฉพาะตัวแรก
-        int maxnum = 1000;
-        int state = 0;
-        for (int i = 2; i < maxnum; i++) { // วนลูปตั้งแต่ 2-N เพื่อหาจำนวนเฉพาะ
-            if (i % 2 == 0) {
-                continue;
+        ArrayList<Integer> palindromicPrime = new ArrayList<>();
+
+        for (int i = 2;; i++) {
+            if (palindromicPrime.size() >= 100) {
+                break;
             }
-            for (int j = 2; j < i; j++) { // วนลูปเพื่อหาว่าหารลงตัวหรือป่าว
-                state = j;
-                if (i % j == 0) { // ถ้าหารลงตัวให้หยุดลูป
-                    break;
+            if (isPrime(i)) {
+                if (isPalindrome(String.valueOf(i))) {
+                    palindromicPrime.add(i);
                 }
             }
-            if (state == i - 1) { // เช็คค่าที่ได้จากลูปว่าลนทุกตัวหรือป่าว ถ้าวนทุกตัวก็เป็นจำนวนเฉพาะ
-                                  // ถ้าวนไม่ครบก็ไม่เป็น
-                ListPrime.add(i);
+        }
+        for (int i = 1; i <= palindromicPrime.size(); i++) {
+            System.out.print(palindromicPrime.get(i - 1) + " ");
+            if (i % 10 == 0) {
+                System.out.println();
             }
         }
-        System.out.println(ListPrime.toString());
-        System.out.println(ListPrime.size() + " ตัว");
+
+    }
+
+    public static boolean isPrime(int number) {
+        number = Math.abs(number);
+        if (number == 2) {
+            return true;
+        } else if (number % 2 == 0 || number == 1) {
+            return false;
+        } else {
+            for (int i = 3; i <= Math.sqrt(number); i += 2) {
+                if (number % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+
+    public static boolean isPalindrome(String s) {
+        int left = 0, right = s.length() - 1;
+        while (left < right) {
+            if (s.charAt(left) != s.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+        return true;
     }
 }
