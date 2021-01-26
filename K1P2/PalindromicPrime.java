@@ -39,10 +39,10 @@ public class PalindromicPrime {
         }
     }
 
-    public static boolean isPalindrome(String s) {
-        int left = 0, right = s.length() - 1;
+    public static boolean isPalindrome(String fa) {
+        int left = 0, right = fa.length() - 1;
         while (left < right) {
-            if (s.charAt(left) != s.charAt(right)) {
+            if (fa.charAt(left) != fa.charAt(right)) {
                 return false;
             }
             left++;
