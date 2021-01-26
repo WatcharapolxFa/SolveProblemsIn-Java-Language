@@ -23,6 +23,18 @@ public class PalindromicPrime {
 
     }
 
+    public static boolean isPalindrome(String fa) {
+        int left = 0, right = fa.length() - 1;
+        while (left < right) {
+            if (fa.charAt(left) != fa.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+        return true;
+    }
+
     public static boolean isPrime(int num) {
         num = Math.abs(num);
         if (num == 2) {
@@ -39,15 +51,4 @@ public class PalindromicPrime {
         }
     }
 
-    public static boolean isPalindrome(String fa) {
-        int left = 0, right = fa.length() - 1;
-        while (left < right) {
-            if (fa.charAt(left) != fa.charAt(right)) {
-                return false;
-            }
-            left++;
-            right--;
-        }
-        return true;
-    }
 }
