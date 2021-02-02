@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Oop1 {
     public static void main(String[] args) {
 
@@ -6,15 +8,18 @@ public class Oop1 {
     public class Circle {
         double radius;
         String color;
+        Date deteCreated;
 
         Circle() {
             radius = 1.0;
             color = "while";
+
         }
 
         Circle(double newReadius, String newColor) {
             radius = newReadius;
             color = newColor;
+
         }
 
         double getArea() {
