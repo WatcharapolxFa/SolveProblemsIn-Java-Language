@@ -5,21 +5,19 @@ public class StringBegin {
         System.out.println(a);
         String b = "80";
         System.out.println(b);
-        
 
+        // String >> int
 
-        // String >> int 
-
-        int fa ;
+        int fa;
         fa = Integer.parseInt(a);
         fa = fa + 15;
         System.out.println(fa);
 
-        //String >> Double
-        
-        double fah ;
+        // String >> Double
+
+        double fah;
         fah = Double.parseDouble(b);
-        fah = fah +25.00;
+        fah = fah + 25.00;
         System.out.println(fah);
 
         // Integer >> String
@@ -28,10 +26,11 @@ public class StringBegin {
         String age = String.valueOf(num1);
         System.out.println(age);
 
-        //Check type
+        // Check type
         String e = "Hello world";
 
         boolean result = e instanceof String;
         System.out.println(result);
+
     }
 }
