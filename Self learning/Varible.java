@@ -6,7 +6,7 @@ class Varible {
         char alphabet;
 
         int numnum1 = 10;
-        float numnum2 = 20;
+        float numnum2 = 20.0f;
         char alphabets = 'F';
 
         double z = 0.00, x = 10.0, v = 25.0;
