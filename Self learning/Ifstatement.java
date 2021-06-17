@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ifstatement {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("ป้อนอายุของคุณ : ");
+        System.out.print("ป้อนอายุของคุณ : ");
         int age = scanner.nextInt();
 
         if (age >= 15) {
