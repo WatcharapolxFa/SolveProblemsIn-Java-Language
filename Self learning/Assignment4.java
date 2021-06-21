@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Assignment4 {
     public static void main(String[] args) {
+        // ลดรูป การใช้เงื่อนไข
         Scanner scanner = new Scanner(System.in);
         System.out.print("ป้อนตัวเลขที่คุณต้องการหา :  ");
         int number = scanner.nextInt();

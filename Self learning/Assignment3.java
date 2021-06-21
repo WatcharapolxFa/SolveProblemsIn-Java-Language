@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Assignment3 {
     public static void main(String[] args) {
+        // หาเลขคู่หรือเลขคี่
         Scanner scanner = new Scanner(System.in);
         System.out.print("ป้อนตัวเลขที่คุณต้องการหา : ");
         int number = scanner.nextInt();
