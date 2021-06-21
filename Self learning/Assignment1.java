@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Assignment1 {
     public static void main(String[] args) {
+        // หาค่า BMI
         Scanner scanner = new Scanner(System.in);
         System.out.print("ป้อนน้ำหนักของท่าน(กิโลกรัม) :      ");
         double weight = scanner.nextDouble();
