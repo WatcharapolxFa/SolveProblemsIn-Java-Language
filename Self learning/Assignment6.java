@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class Assignment6 {
     public static void main(String[] args) {
+        /*
+         * เงื่อนไข น้อยกว่า 18 ต่ำกว่าเกรณฑ์ 18.5 - 22.9 สมส่วน 23.0 - 24.9 น้ำหนักเกิน
+         * 25.0 - 29.9 โรคอ้วน มากกว่า 30.0 โรคอ้วนระดับอันตราย
+         */
         Scanner scanner = new Scanner(System.in);
         System.out.print("ป้อนน้ำหนักของคุณ : ");
         double weight = scanner.nextDouble();
