@@ -10,7 +10,6 @@ public class SwitchCase {
         switch (month) {
             case 1:
                 name = "January";
-
                 break;
             case 2:
                 name = "February";
