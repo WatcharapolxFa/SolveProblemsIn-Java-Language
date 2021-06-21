@@ -22,6 +22,10 @@ public class Assignment7 {
             System.out.println("แบงค์ 100 บาท จำนวน > " + (number / 100) + " ใบ");
             number %= 100;
         }
+        if (number >= 50) {
+            System.out.println("แบงค์ 50 บาท จำนวน > " + (number / 50) + " ใบ");
+            number %= 50;
+        }
         if (number >= 20) {
             System.out.println("แบงค์ 20 บาท จำนวน > " + (number / 20) + " ใบ");
             number %= 20;
