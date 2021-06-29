@@ -1,8 +1,11 @@
 public class InputLoop {
-    int number = 15;
-    float number1 = 20.0f;
+    public static void main(String[] args) {
+        // int long byte
+        boolean sum = false;
+        char fa = 'A';
 
-    System.out.println(number);
-    System.out.println(number1);
+        System.out.println(sum);
+        System.out.println(fa);
+    }
 
 }
