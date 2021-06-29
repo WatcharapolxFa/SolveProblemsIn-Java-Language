@@ -7,7 +7,7 @@ public class MinmaxLoops {
         Scanner scanner = new Scanner(System.in);
         int maxnumber = 0, minnumber = 0;
         while (true) {
-            System.out.print("ป้อนตัวเลข >> ");
+            System.out.print("ป้อน ตัวเลข >> ");
             int number = scanner.nextInt();
             if (number < 0) {
                 break;
