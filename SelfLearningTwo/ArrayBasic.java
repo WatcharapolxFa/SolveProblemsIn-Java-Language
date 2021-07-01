@@ -6,6 +6,8 @@ public class ArrayBasic {
         number[2] = 30;
         number[3] = 40;
         System.out.println(number[3]);
+
+        int[] number2 = { 10, 20, 30, 40 };
     }
 
 }
