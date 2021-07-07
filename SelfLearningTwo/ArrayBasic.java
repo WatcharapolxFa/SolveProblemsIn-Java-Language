@@ -6,6 +6,9 @@ public class ArrayBasic {
         number[2] = 30;
         number[3] = 40;
         System.out.println(number[3]);
+        float[] avg = new float[5];
+        avg[0] = 4.0f;
+        avg[1] = 5.0f;
 
         int[] number2 = { 10, 20, 30, 40 };
     }
