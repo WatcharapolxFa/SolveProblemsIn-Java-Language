@@ -9,6 +9,7 @@ public class ArrayBasic {
         float[] avg = new float[5];
         avg[0] = 4.0f;
         avg[1] = 5.0f;
+        avg[2] = 5.0f;
 
         int[] number2 = { 10, 20, 30, 40 };
     }
