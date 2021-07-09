@@ -12,7 +12,8 @@ public class ArrayBasic {
         avg[2] = 5.0f;
 
         int[] number2 = { 10, 20, 30, 40 };
-        System.out.println(number2.length);
+        int count = number2.length;
+        System.out.println(count);
     }
 
 }
