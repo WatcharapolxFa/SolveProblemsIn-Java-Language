@@ -14,6 +14,10 @@ public class ArrayBasic {
         int[] number2 = { 10, 20, 30, 40 };
         int count = number2.length;
         System.out.println(count);
+        // แสดงค่าใน Array
+        for (int i = 0; i < count; i++) {
+            System.out.println(number2[i]);
+        }
     }
 
 }
