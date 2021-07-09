@@ -18,6 +18,13 @@ public class ArrayBasic {
         for (int i = 0; i < count; i++) {
             System.out.println(number2[i]);
         }
+        int sum = 0;
+        String[] fruits = { "มะละกอ ", "มะม่วง", "มะไฟ " };
+        for (int data : number) {
+            System.out.println(data);
+            sum += data;
+        }
+        System.out.println("ผลรวม" + sum);
     }
 
 }
