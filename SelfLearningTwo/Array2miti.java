@@ -6,6 +6,8 @@ public class Array2miti {
         System.out.println(product[1][2]);
         product[2][2] = "แผ่นรองเมาส์";
         System.out.println(product[2][2]);
+        System.out.println("-------------");
+
     }
 
 }
