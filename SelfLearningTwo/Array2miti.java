@@ -1,6 +1,6 @@
 public class Array2miti {
     public static void main(String[] args) {
-        //2 MITI
+        //Array 2 MITI
         String[][] product = { { "ที่นอน", "หมอน", "ผ้าปู" }, { "แป้นพิมพ์", "คอมพิวเตอร์", "ที่วางมือ" },
                 { "แว่นตา", "กล่อง", "ขวดน้ำสิงห์" } };
 
