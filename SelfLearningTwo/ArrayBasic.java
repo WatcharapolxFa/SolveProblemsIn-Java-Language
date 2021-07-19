@@ -1,5 +1,6 @@
 public class ArrayBasic {
     public static void main(String[] args) {
+        //Array onr miti
         int[] number = new int[4];
         number[0] = 10;
         number[1] = 20;
