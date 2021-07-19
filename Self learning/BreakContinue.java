@@ -1,6 +1,6 @@
 public class BreakContinue {
     public static void main(String[] args) {
-        // Break
+        // Break Continue
 
         for (int i = 0; i <= 100; i++) {
             if (i == 5)
