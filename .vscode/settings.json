@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "SelfLearningTwo",
         "Self learning",
-        "SelfLearningTwo"
+        "OOPJAVA"
     ]
 }
