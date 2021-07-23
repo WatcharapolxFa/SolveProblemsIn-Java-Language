@@ -1,7 +1,16 @@
 class Employee {
     // Attribute
-    public String id;
-    public String name;
-    public String salary;
+    private String id;
+    private String name;
+    private String salary;
+
+    public void setId(String id) {
+        this.id = id;
+
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
 }
