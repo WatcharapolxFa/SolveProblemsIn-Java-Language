@@ -4,6 +4,8 @@ class Employee {
     private String name;
     private String salary;
 
+    // Methods
+
     public void setId(String id) {
         this.id = id;
 
@@ -11,6 +13,16 @@ class Employee {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setSalary(String salary) {
+        this.salary = salary;
+    }
+
+    public void disPlayEmployees() {
+        System.out.println("ID =>" + this.id);
+        System.out.println("NAME =>" + this.name);
+        System.out.println("Salary =>" + this.salary);
     }
 
 }
