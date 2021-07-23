@@ -19,6 +19,10 @@ class Employee {
         this.salary = salary;
     }
 
+    public String getName() {
+        return this.name;
+    }
+
     public void disPlayEmployees() {
         System.out.println("ID =>" + this.id);
         System.out.println("NAME =>" + this.name);
