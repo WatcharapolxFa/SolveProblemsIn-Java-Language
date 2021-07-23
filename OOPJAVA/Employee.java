@@ -1,6 +1,6 @@
 class Employee {
     // Attribute
-    private String id;
+    public String id;
     private String name;
     private String salary;
 
