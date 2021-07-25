@@ -4,7 +4,7 @@ class LogicTutorial {
          * 
          * AND && OR || NOT !
          */
-        int a = 10, b = 20;
+        int a = 100, b = 200;
 
         boolean c = (a == b);
         boolean d = (a < b);
