@@ -24,6 +24,7 @@ public class Condition {
     }
 
 }
+
 // if (age >= 15) {
 // System.out.println("นาย / นางสาว : " + age);
 // }
