@@ -3,6 +3,6 @@ class Hello {
 
         System.out.println("Hello \t Watcharapol Yotadee");// Show new line results
         System.out.print("30");// Show line
-        // System.out.print("\t Code Runner");
+        System.out.print("\t Code Runner");
     }
 }
