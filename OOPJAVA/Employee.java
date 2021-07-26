@@ -5,11 +5,18 @@ class Employee {
     private Double salary;
 
     // Default Constructor
-    public Employee() {
-        System.out.println("Create Object Completed");
-        this.id = "01";
-        this.name = "Watcharapol Yotadee";
-        this.salary = 350000.0;
+
+    // public Employee() {
+
+    // this.id = "01";
+    // this.name = "Watcharapol Yotadee";
+    // this.salary = 350000.0;
+    // System.out.println("Create Object Completed");
+    // }
+
+    // Custom Constructor
+    public Employee(String id, String name, String salary) {
+
     }
 
     // Methods //set การใส่ข้อมูล
