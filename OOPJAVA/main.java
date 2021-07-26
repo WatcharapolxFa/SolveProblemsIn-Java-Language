@@ -3,7 +3,6 @@ public class Main {
 
         // Create Object // สร้างวัตถุ
         Employee e1 = new Employee();
-        e1.disPlayEmployees();
 
         // Input Data //ใส่ข้อมูลคนแรก
 
@@ -12,7 +11,7 @@ public class Main {
         // e1.setSalary("35000");
 
         // AlL OUTPUT
-        // e1.disPlayEmployees();
+        e1.disPlayEmployees();
 
         // Create Object // สร้างวัตถุ
         Employee e2 = new Employee();
