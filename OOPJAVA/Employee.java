@@ -2,11 +2,14 @@ class Employee {
     // Attribute
     private String id;
     private String name;
-    private String salary;
+    private Double salary;
 
     // Default Constructor
     public Employee() {
         System.out.println("Create Object Completed");
+        this.id = "01";
+        this.name = "Watcharapol Yotadee";
+        this.salary = 350000.0;
     }
 
     // Methods
@@ -20,14 +23,14 @@ class Employee {
         this.name = name;
     }
 
-    public void setSalary(String salary) {
+    public void setSalary(Double salary) {
         this.salary = salary;
     }
 
     public void disPlayEmployees() {
-        System.out.println("ID =>" + this.id);
-        System.out.println("NAME =>" + this.name);
-        System.out.println("Salary =>" + this.salary);
+        System.out.println("ID =>    " + this.id);
+        System.out.println("NAME =>   " + this.name);
+        System.out.println("Salary => " + this.salary);
     }
 
     // OUTPUT
@@ -35,7 +38,7 @@ class Employee {
         return this.name;
     }
 
-    public String getSalary(String salary) {
+    public Double getSalary(Double salary) {
         return this.salary;
     }
 
