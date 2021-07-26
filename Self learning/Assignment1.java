@@ -13,6 +13,7 @@ public class Assignment1 {
         System.out.println("น้ำหนักของท่าน(กิโลกรัม) :" + weight + ("กิโลกรัม"));
         System.out.println("ส่วนสูงของท่าน(เมตร) :" + height + ("เมตร"));
         System.out.println("ค่า BMI ของท่าน :" + bmi);
+
     }
 
 }
