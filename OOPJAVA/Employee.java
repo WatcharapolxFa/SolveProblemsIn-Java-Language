@@ -15,7 +15,10 @@ class Employee {
     // }
 
     // Custom Constructor
-    public Employee(String id, String name, String salary) {
+    public Employee(String id, String name, Double salary) {
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
 
     }
 
@@ -36,6 +39,7 @@ class Employee {
 
     // แสดงค่าออกทาง Terminal
     public void disPlayEmployees() {
+        System.out.println("--------------------------------");
         System.out.println("ID =>    " + this.id);
         System.out.println("NAME =>   " + this.name);
         System.out.println("Salary => " + this.salary);

@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Create Object // สร้างวัตถุ
-        Employee e1 = new Employee();
+        Employee e1 = new Employee("01", "Watcharapol", 35000.0);
 
         // Input Data //ใส่ข้อมูลคนแรก
 
@@ -14,7 +14,8 @@ public class Main {
         e1.disPlayEmployees();
 
         // Create Object // สร้างวัตถุ
-        Employee e2 = new Employee();
+        Employee e2 = new Employee("02", "Wattana", 40000.0);
+        e2.disPlayEmployees();
 
         // Input Data //ใส่ข้อมูลคนสอง
 
@@ -23,7 +24,7 @@ public class Main {
         // e2.setSalary("37000");
 
         // Select OUTPUT
-        System.out.println(e2.getName());
+        // System.out.println(e2.getName());
 
     }
 
