@@ -4,6 +4,11 @@ class Employee {
     private String name;
     private String salary;
 
+    // Default Constructor
+    public Employee() {
+        System.out.println("Create Object Completed");
+    }
+
     // Methods
 
     public void setId(String id) {
