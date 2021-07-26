@@ -1,18 +1,28 @@
 public class Main {
     public static void main(String[] args) {
 
-        Employee e1 = new Employee();// Create Object
+        // Create Object // สร้างวัตถุ
+        Employee e1 = new Employee();
         e1.disPlayEmployees();
+
+        // Input Data
         // e1.setId("01");
         // e1.setName("Watcharapol");
         // e1.setSalary("35000");
-        // e1.disPlayEmployees(); // AlL OUTPUT
 
-        Employee e2 = new Employee();// Create Object
+        // AlL OUTPUT
+        // e1.disPlayEmployees();
+
+        // Create Object // สร้างวัตถุ
+        Employee e2 = new Employee();
+
+        // Input Data
         // e2.setId("02");
         // e2.setName("Wattana");
         // e2.setSalary("37000");
-        // System.out.println(e2.getName()); // OUTPUT Select
+
+        // OUTPUT Select
+        // System.out.println(e2.getName());
 
     }
 

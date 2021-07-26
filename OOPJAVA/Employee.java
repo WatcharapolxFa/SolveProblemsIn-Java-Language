@@ -1,5 +1,5 @@
 class Employee {
-    // Attribute
+    // Attribute //แม่แบบ
     private String id;
     private String name;
     private Double salary;
