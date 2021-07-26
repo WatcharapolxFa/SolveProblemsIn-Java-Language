@@ -12,7 +12,7 @@ class Employee {
         this.salary = 350000.0;
     }
 
-    // Methods
+    // Methods //set การใส่ข้อมูล
 
     public void setId(String id) {
         this.id = id;
@@ -27,13 +27,19 @@ class Employee {
         this.salary = salary;
     }
 
+    // แสดงค่าออกทาง Terminal
     public void disPlayEmployees() {
         System.out.println("ID =>    " + this.id);
         System.out.println("NAME =>   " + this.name);
         System.out.println("Salary => " + this.salary);
     }
 
-    // OUTPUT
+    // OUTPUT // นำผลออกมาแสดงโดยส่งไปใน disPlayEmployees()
+
+    public String getId() {
+        return this.id;
+    }
+
     public String getName() {
         return this.name;
     }

@@ -6,6 +6,7 @@ public class Main {
         e1.disPlayEmployees();
 
         // Input Data //ใส่ข้อมูลคนแรก
+
         // e1.setId("01");
         // e1.setName("Watcharapol");
         // e1.setSalary("35000");
@@ -17,6 +18,7 @@ public class Main {
         Employee e2 = new Employee();
 
         // Input Data //ใส่ข้อมูลคนสอง
+
         // e2.setId("02");
         // e2.setName("Wattana");
         // e2.setSalary("37000");
