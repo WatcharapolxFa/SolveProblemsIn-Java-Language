@@ -23,7 +23,7 @@ public class Main {
         // e2.setName("Wattana");
         // e2.setSalary("37000");
 
-        // OUTPUT Select
+        // Select OUTPUT
         // System.out.println(e2.getName());
 
     }
