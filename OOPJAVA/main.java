@@ -37,6 +37,11 @@ public class Main {
 
         Company.service();
 
+        Programmer p1 = new Programmer();
+        p1.setId("04");
+        p1.setName("FaH");
+        p1.setSalary(3500.0);
+
     }
 
 }
