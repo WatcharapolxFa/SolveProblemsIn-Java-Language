@@ -26,7 +26,9 @@ public class Main {
         // Select OUTPUT
         // System.out.println(e2.getName());
 
+        // Static
         System.out.println(Company.create_at);
+        Company.service();
 
     }
 
