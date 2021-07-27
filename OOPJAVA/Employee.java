@@ -6,13 +6,13 @@ class Employee {
 
     // Default Constructor
 
-    // public Employee() {
+    public Employee() {
 
-    // this.id = "01";
-    // this.name = "Watcharapol Yotadee";
-    // this.salary = 350000.0;
-    // System.out.println("Create Object Completed");
-    // }
+    }
+
+    public Employee(String id, String name) {
+
+    }
 
     // Custom Constructor
     public Employee(String id, String name, Double salary) {
