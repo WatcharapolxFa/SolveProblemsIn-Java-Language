@@ -28,6 +28,7 @@ public class Main {
 
         // Static
         System.out.println(Company.create_at);
+        // Static method
         Company.service();
 
     }
