@@ -12,12 +12,14 @@ public class Main {
         // e1.setSalary("35000");
 
         // AlL OUTPUT
-        e1.disPlayEmployees();
+
+        // e1.disPlayEmployees();
 
         // Create Object // สร้างวัตถุ
 
         Employee e2 = new Employee("02", "Wattana", 40000.0);
-        e2.disPlayEmployees();
+
+        // e2.disPlayEmployees();
 
         // Input Data //ใส่ข้อมูลคนสอง
 
