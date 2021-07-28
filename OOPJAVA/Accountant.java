@@ -3,7 +3,7 @@ public class Accountant extends Employee {
 
     public Accountant(String id, String name, Double salary) {
         super(id, name, salary);
-        System.out.println("I'm programmer");
+        System.out.println("I'm Accountant");
 
     }
 }
