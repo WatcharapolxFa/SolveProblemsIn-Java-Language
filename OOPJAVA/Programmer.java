@@ -17,4 +17,9 @@ public class Programmer extends Employee {
         System.out.println(" Skill = > " + language);
 
     }
+
+    public void skill(String language, String languages) {
+        System.out.println(" Skill = > " + language + " " + languages);
+
+    }
 }
