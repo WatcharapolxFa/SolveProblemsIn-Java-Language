@@ -39,11 +39,7 @@ public class Main {
 
         // extends
 
-        Programmer p1 = new Programmer();
-        p1.setId("04");
-        p1.setName("FaH");
-        p1.setSalary(3500.0);
-        p1.disPlayEmployees();
+        Programmer p1 = new Programmer("04", "FaH", 3500.0);
 
     }
 
