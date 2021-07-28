@@ -44,6 +44,8 @@ public class Main {
         Programmer Program = new Programmer("04", "FaH", 3500.0);
         Accountant acc = new Accountant("05", "full", 6900.0);
 
+        Program.skill();
+
     }
 
 }

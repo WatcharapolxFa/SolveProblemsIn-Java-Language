@@ -6,4 +6,15 @@ public class Programmer extends Employee {
         System.out.println("I'm programmer");
 
     }
+
+    // Overloading Method
+    public void skill() {
+        System.out.println("No Skill");
+
+    }
+
+    public void skill(String language) {
+        System.out.println(" Skill = > " + language);
+
+    }
 }
