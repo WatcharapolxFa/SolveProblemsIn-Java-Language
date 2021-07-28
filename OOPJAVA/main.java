@@ -39,7 +39,8 @@ public class Main {
 
         // extends
 
-        Programmer p1 = new Programmer("04", "FaH", 3500.0);
+        Programmer Program = new Programmer("04", "FaH", 3500.0);
+        Accountant acc = new Accountant("05", "full", 6900.0);
 
     }
 
