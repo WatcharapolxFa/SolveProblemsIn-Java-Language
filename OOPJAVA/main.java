@@ -31,17 +31,19 @@ public class Main {
 
         // Static
 
-        System.out.println("ชื่อสถารที่ทำงาน" + Company.name);
+        // System.out.println("ชื่อสถารที่ทำงาน >> " + Company.name);
 
         // Static method
 
-        Company.service();
+        // Company.service();
 
         // extends
+
         Programmer p1 = new Programmer();
         p1.setId("04");
         p1.setName("FaH");
         p1.setSalary(3500.0);
+        p1.disPlayEmployees();
 
     }
 

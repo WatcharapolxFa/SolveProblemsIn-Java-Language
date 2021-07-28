@@ -40,7 +40,6 @@ class Employee {
     // แสดงค่าออกทาง Terminal
     public void disPlayEmployees() {
         System.out.println("--------------------------------");
-        System.out.println("ID =>    " + this.id);
         System.out.println("NAME =>   " + this.name);
         System.out.println("Salary => " + this.salary);
     }
