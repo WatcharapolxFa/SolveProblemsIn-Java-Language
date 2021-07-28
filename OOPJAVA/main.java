@@ -31,7 +31,7 @@ public class Main {
 
         // Static
 
-        System.out.println(Company.name);
+        System.out.println("ชื่อสถารที่ทำงาน" + Company.name);
 
         // Static method
 

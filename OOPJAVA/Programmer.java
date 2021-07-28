@@ -1,7 +1,5 @@
 public class Programmer extends Employee {
-    public void showProgrammer() {
-        setId("4");
-        setName("FaH");
-        setSalary(3500.0);
+    public Programmer() {
+        System.out.println("I'm Programmer have skill Coding");
     }
 }
