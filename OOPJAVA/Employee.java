@@ -59,4 +59,8 @@ class Employee {
         return this.salary;
     }
 
+    public void bonus() {
+        System.out.println("Bonus = 10 % ");
+    }
+
 }
