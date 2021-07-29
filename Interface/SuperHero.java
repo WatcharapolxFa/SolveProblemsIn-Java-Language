@@ -13,4 +13,10 @@ abstract class SuperHero {
 
     public abstract void skill(String skill);
 
+    public void disPlaySuperHero() {
+        System.out.println("Name = " + this.name);
+        System.out.println("Age  = " + this.age);
+
+    }
+
 }
