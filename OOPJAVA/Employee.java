@@ -1,4 +1,4 @@
-class Employee {
+abstract class Employee {
     // Attribute //แม่แบบ
     private String id;
     private String name;
@@ -59,8 +59,8 @@ class Employee {
         return this.salary;
     }
 
-    public void bonus() {
-        System.out.println("Bonus = 10 % ");
-    }
+    // abstract
+
+    public abstract void bonus();
 
 }
