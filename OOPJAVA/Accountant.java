@@ -8,6 +8,6 @@ public class Accountant extends Employee {
     }
 
     public void bonus() {
-        System.out.println("Bonus = 20 % ");
+        System.out.println("Bonus = 10 % ");
     }
 }
