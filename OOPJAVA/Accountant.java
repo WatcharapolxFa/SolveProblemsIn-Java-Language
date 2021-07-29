@@ -6,4 +6,8 @@ public class Accountant extends Employee {
         System.out.println("I'm Accountant");
 
     }
+
+    public void bonus() {
+        System.out.println("Bonus = 20 % ");
+    }
 }

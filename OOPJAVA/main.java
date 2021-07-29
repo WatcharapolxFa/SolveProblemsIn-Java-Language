@@ -3,7 +3,7 @@ public class Main {
 
         // Create Object // สร้างวัตถุ
 
-        Employee e1 = new Employee("01", "Watcharapol", 35000.0);
+        // Employee e1 = new Employee("01", "Watcharapol", 35000.0);
 
         // Input Data //ใส่ข้อมูลคนแรก
 
@@ -17,7 +17,7 @@ public class Main {
 
         // Create Object // สร้างวัตถุ
 
-        Employee e2 = new Employee("02", "Wattana", 40000.0);
+        // Employee e2 = new Employee("02", "Wattana", 40000.0);
 
         // e2.disPlayEmployees();
 
