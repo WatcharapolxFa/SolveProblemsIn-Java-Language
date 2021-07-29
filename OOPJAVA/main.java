@@ -1,45 +1,45 @@
 public class Main {
     public static void main(String[] args) {
 
-        // Create Object // สร้างวัตถุ
+        /* Create Object // สร้างวัตถุ */
 
         // Employee e1 = new Employee("01", "Watcharapol", 35000.0);
 
-        // Input Data //ใส่ข้อมูลคนแรก
+        /* Input Data //ใส่ข้อมูลคนแรก */
 
         // e1.setId("01");
         // e1.setName("Watcharapol");
         // e1.setSalary("35000");
 
-        // AlL OUTPUT
+        /* AlL OUTPUT */
 
         // e1.disPlayEmployees();
 
-        // Create Object // สร้างวัตถุ
+        /* Create Object // สร้างวัตถุ */
 
         // Employee e2 = new Employee("02", "Wattana", 40000.0);
 
         // e2.disPlayEmployees();
 
-        // Input Data //ใส่ข้อมูลคนสอง
+        /* Input Data //ใส่ข้อมูลคนสอง */
 
         // e2.setId("02");
         // e2.setName("Wattana");
         // e2.setSalary("37000");
 
-        // Select OUTPUT
+        /* Select OUTPUT */
 
         // System.out.println(e2.getName());
 
-        // Static
+        /* Static */
 
         // System.out.println("ชื่อสถารที่ทำงาน >> " + Company.name);
 
-        // Static method
+        /* Static method */
 
         // Company.service();
 
-        // extends
+        /* extends */
 
         Programmer Program = new Programmer("04", "FaH", 3500.0);
         Program.skill("JAVA");
