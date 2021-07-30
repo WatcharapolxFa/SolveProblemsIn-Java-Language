@@ -27,5 +27,6 @@ public class Method {
         System.out.println("ชื่อจริงของนายท่าน คือ > " + message + " ครับ / ค่ะ ");
 
     }
+    // แบบสาม
 
 }
