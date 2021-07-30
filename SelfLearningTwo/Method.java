@@ -12,6 +12,10 @@ public class Method {
         String name = scanner.nextLine();
         display(name);
 
+        // เรียกใช้ Ip
+        String ip = Ip();
+        System.out.println("เลข Ip ของท่านคือ >>> " + ip);
+
     }
 
     // แบบแรก
@@ -27,6 +31,10 @@ public class Method {
         System.out.println("ชื่อจริงของนายท่าน คือ > " + message + " ครับ / ค่ะ ");
 
     }
+
     // แบบสาม
+    static String Ip() {
+        return "192.0.0.1";
+    }
 
 }
