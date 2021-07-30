@@ -16,17 +16,18 @@ public class Method {
         String ip = Ip();
         System.out.println("เลข Ip ของท่านคือ >>> " + ip);
 
+        // เรียกใช้ Ip && Bonus
+
         System.out.print("เงินเดือนของท่าน >>> ");
         double salary = scanner.nextDouble();
-        double sum = Bonus(salary);
-        System.out.print("เงินทั้งหมดหลังจากรวมค่า Bonus >>> " + sum);
+        System.out.print("เงินทั้งหมดหลังจากรวมค่า Bonus >>> " + Bonus(salary) + " ฿ ");
 
     }
 
     // แบบแรก
     static void Display() {
         // กลุ่มคำสั่งที่อยากให้ทำงาน
-        System.out.print("โปรป้อนชื่อจริง ของนายท่าน = > " + " ฿ ");
+        System.out.print("โปรป้อนชื่อจริง ของนายท่าน = > ");
 
     }
 
