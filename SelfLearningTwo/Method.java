@@ -24,7 +24,7 @@ public class Method {
 
     }
 
-    // แบบแรก
+    // แบบแรก*
     static void Display() {
         // กลุ่มคำสั่งที่อยากให้ทำงาน
         System.out.print("โปรป้อนชื่อจริง ของนายท่าน = > ");
