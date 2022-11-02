@@ -1,0 +1,4 @@
+ISBN,Title,Publisher,Authors
+9780201633610,Design Patterns: Elements of Reusable Object-Oriented Software,Addison-Wesley,Erich Gamma|Ralph Johnson|John Vlissides|Richard Helm
+9780078022159,Database System Concepts,McGraw Hill,Avi Silberschatz|Henry F. Korth|S. Sudarshan
+
