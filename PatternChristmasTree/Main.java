@@ -9,6 +9,7 @@ public class Main {
         if(num >= 4)// ถ้า ค่าที่รับมาจากผู้ใช้มากว่าหรือเท่ากับ 4 ทำตามเงื่อนไขนี้
         {
             Pattern p1 = new Pattern(num);// สร้าง Object ขี้นมา
+            // Pattern p1 = new Pattern(5); กำหนดค่าไว้
             p1.display();
         }
         else//ไม่ใช่ทำตามเงื่อนไขนี้
