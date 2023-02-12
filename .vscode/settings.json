@@ -1,11 +1,16 @@
 {
     "java.project.sourcePaths": [
+        "creational",
         "SelfLearningTwo",
         "Self learning",
         "OOPJAVA",
         "Interface",
         "Creational Design Patterns/creational",
         "Abstract Class",
-        "creational"
+        "Beryl8(BE8)"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/yotadeewatcharapol/Downloads/selenium-java-4.8.0/**/*.jar"
     ]
 }

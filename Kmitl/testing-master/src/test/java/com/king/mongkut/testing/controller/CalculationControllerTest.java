@@ -69,4 +69,13 @@ class CalculationControllerTest {
                 () -> assertEquals("something went wrong", actual.getBody())
         );
     }
+
+    @Test
+    void should_return_status_ok_when_call_multiply_give_number1_and_number2() {
+        //Given
+
+        //When
+
+        //Then
+    }
 }

@@ -14,7 +14,6 @@ class CalculationServiceTest {
     private CalculationService calculationService;
 
     @Test
-
     void should_return_success_when_call_plus_with_number1_and_number2(){
         int result = calculationService.plus("2","3");
         assertEquals(5,result);
@@ -45,4 +44,29 @@ class CalculationServiceTest {
         // Then
         assertEquals(-1, actual);
     }
+
+    @Test
+    void should_return_success_when_call_multiply_with_number1_and_number2() {
+        int result = calculationService.multiply("3","2");
+        assertEquals(6 ,result);
+    }
+    @Test
+    void should_return_error_when_call_multiply_with_number1_and_number2() {
+        assertThrows(NumberFormatException.class, () -> {
+            calculationService.multiply("b", "3");
+        });
+    }
+
+    @Test
+    void should_return_success_when_call_divide_with_number1_and_number2() {
+        int result = calculationService.divide("8","2");
+        assertEquals(4 ,result);
+    }
+    @Test
+    void should_return_error_when_call_divide_with_number1_and_number2() {
+        int result = calculationService.divide("B","2");
+        assertEquals(-1 ,result);
+    }
+
+
 }

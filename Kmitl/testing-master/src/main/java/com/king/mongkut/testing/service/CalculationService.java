@@ -16,4 +16,23 @@ public class CalculationService {
             return -1;
         }
     }
+
+    public int multiply(String number1, String number2){
+        try {
+
+        } catch (NumberFormatException ex) {
+
+        } catch (Exception ex) {
+
+        }
+        return  Integer.parseInt(number1) * Integer.parseInt(number2);
+    }
+
+    public int divide(String number1 , String number2){
+        try {
+            return Integer.parseInt(number1) / Integer.parseInt(number2);
+        } catch (NumberFormatException exception) {
+            return -1;
+        }
+    }
 }

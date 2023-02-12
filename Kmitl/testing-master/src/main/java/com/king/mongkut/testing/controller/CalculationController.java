@@ -41,4 +41,16 @@ public class CalculationController {
             }
         }
     }
+
+    @GetMapping("/multiply")
+    public ResponseEntity<?> multiply(@RequestParam String number1, @RequestParam String number2) {
+        {
+            int multiply = calculationService.minus(number1, number2);
+            if (multiply != -1) {
+                return ResponseEntity.ok(multiply);
+            } else {
+                return ResponseEntity.badRequest().body("something went wrong");
+            }
+        }
+    }
 }
