@@ -1,13 +1,8 @@
 {
     "java.project.sourcePaths": [
-        "creational",
-        "SelfLearningTwo",
-        "Self learning",
-        "OOPJAVA",
         "Interface",
-        "Creational Design Patterns/creational",
-        "Abstract Class",
-        "Beryl8(BE8)"
+        "Beryl8(BE8)",
+        "JoBs/GivenaBoard"
     ],
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
