@@ -1,0 +1,13 @@
+Given a board of size 2n+1 that contains n white marbles and n black marbles separated by a space, our purpose is to reverse this board. Conditions to move any marble are as follows.
+1.1 White marble can only go right
+• It can move to RHS space,i.e. from "W_" to "_W"
+• It can jump over a black marble to RHS space, i.e. from "w b_"to "_b w"
+1.2 Black marble can only go left
+• It can move to LHS space, i.e. from_" b" to "b_"
+• It can jump over awhite marble to LHS space, i.e. from _" w b" to "b w _"
+
+2.1 Ask user for n which is #white and #black marble; n must be at least 2. Create a board of 2n+1 marbles.
+Al marbles must be labelled with IDs e.g. wO, w1, b0, b1.
+2.2 Keep asking user for marble ID.Check whether the chosen marble is movable. If it is, then move it.At any time, the user must be able to switch to auto mode.
+2.3 In auto mode, find a solution (if there is one) starting from the switching state in (2.2).
+2.4 The program should be able to loop for a new game with different board size &handle input errors.
